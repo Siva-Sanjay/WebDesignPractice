@@ -259,3 +259,6 @@ li:hover{
 
 }
 
+.btn , .bene {
+      cursor: pointer;
+}
