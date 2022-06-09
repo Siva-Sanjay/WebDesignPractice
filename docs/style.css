@@ -259,6 +259,6 @@ li:hover{
 
 }
 
-.btn , .bene {
+.btn:hover , .bene.hover , li.hover {
       cursor: pointer;
 }
