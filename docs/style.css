@@ -10,17 +10,18 @@ body {
     padding-right: 3vw;
     box-sizing: border-box;
     padding-top: 2vw;
-    background-image: url("images/nordwood-themes-EZSm8xRjnX0-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100%;
+      background-image: url("images/nordwood-themes-EZSm8xRjnX0-unsplash.jpg");
+      /* background-color: #fff; */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 100%;
       
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 10% 10%;
-    grid-template-rows: 8vw 55vw;
-    grid-template-areas: 'logo hdr hdr hdr reg reg' 'txt txt txt mt mt mt';
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 10% 10%;
+      grid-template-rows: 8vw 55vw;
+      grid-template-areas: 'logo hdr hdr hdr reg reg' 'txt txt txt mt mt mt';
 }
   
 
@@ -49,6 +50,7 @@ ul {
        justify-content: space-around;
        align-items: center;
        font-size: 1.5vw;
+      /* background-color: rgba(0,0,0,1); */
 }
   
 .cover> .txt {
@@ -59,7 +61,10 @@ ul {
     grid-area: txt;
     position: relative;
     top:25%;
-}
+    
+    
+
+  }
 
 .cover> .txt> .bigt{
     font-size: 3vw;
